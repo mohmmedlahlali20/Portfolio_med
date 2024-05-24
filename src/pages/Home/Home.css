@@ -2,3 +2,16 @@
     position: relative;
     left: 44em;
 }
+
+@keyframes custom-bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+.custom-animate-bounce {
+    animation: custom-bounce 1s infinite;
+}
