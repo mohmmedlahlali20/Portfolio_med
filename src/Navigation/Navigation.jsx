@@ -39,6 +39,9 @@ const Navigation = () => {
                 <Link to="/project" className={`text-gray-800 dark:text-white hover:text-gray-600 ${isDarkMode ? 'dark:hover:text-gray-300' : 'hover:text-gray-300'} px-3 py-2 rounded-md text-sm font-medium`}>
                   Project
                 </Link>
+                <Link to="/Skill" className={`text-gray-800 dark:text-white hover:text-gray-600 ${isDarkMode ? 'dark:hover:text-gray-300' : 'hover:text-gray-300'} px-3 py-2 rounded-md text-sm font-medium`}>
+                  Skilles
+                </Link>
               </div>
             </div>
           </div>

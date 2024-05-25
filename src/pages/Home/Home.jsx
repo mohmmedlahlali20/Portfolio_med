@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './Home.css'
-import imageElectroNacer  from '../Project/Project-img/taxi.png'
-import  imageEvento from '../Project/Project-img/image1.png'
-import PetsWeb from '../Project/Project-img/Pets.png'
+import imageElectroNacer  from '../../assets/images/taxi.png'
+import  imageEvento from '../../assets/images/image1.png'
+import PetsWeb from '../../assets/images/Pets.png'
 function Home() {
     const projects = [
         {
@@ -128,7 +128,7 @@ function Home() {
                         </p>
                         <div className="mt-6">
                             <a
-                                href="#"
+                                href="/contact"
                                 className="inline-block bg-indigo-500 text-white rounded-full px-6 py-3 text-lg font-semibold hover:bg-indigo-600"
                             >
                                 Contact Me
