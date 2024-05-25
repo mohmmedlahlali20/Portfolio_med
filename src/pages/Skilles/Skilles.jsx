@@ -25,8 +25,8 @@ const skillsData = [
     { id: 7, name: 'Tailwind CSS', image: tailwindImage },
     { id: 8, name: 'Laravel', image: laravelImage },
     { id: 9, name: 'Docker', image: docker },
-    { id: 10, name: 'postman', image: Postman },
-    { id: 11, name: 'ubuntu', image: ubuntu },
+    { id: 10, name: 'Postman', image: Postman },
+    { id: 11, name: 'Ubuntu', image: ubuntu },
 ];
 
 const Skills = () => {
@@ -60,36 +60,24 @@ const Skills = () => {
     };
 
     return (
-        <>
-            <div className='flex justify-center container'>
-                <div className="container-sun">
-                    <div className="cloud front">
-                        <span className="left-front"></span>
-                        <span className="right-front"></span>
-                    </div>
-                    <span className="sun sunshine"></span>
-                    <span className="sun"></span>
-                    <div className="cloud back">
-                        <span className="left-back"></span>
-                        <span className="right-back"></span>
-                    </div>
-                </div>
+        <div className="min-h-screen flex items-center justify-between bg-gradient-to-r from-gray-800 via-indigo-500 to-yellow-500">
+            <div className="relative w-1/4 h-64 flex items-center justify-center">
+                <div className="moon animate-fadeInUp"></div>
             </div>
-            <div className='mx-auto container '>
-                <div className='row flex justify-center items-center m-8'>
-                    <div className="skills-carousel">
-                        <Slider {...settings}>
-                            {skillsData.map(skill => (
-                                <div key={skill.id} className="skill">
-                                    <img src={skill.image} alt={skill.name} />
-                                    <p>{skill.name}</p>
-                                </div>
-                            ))}
-                        </Slider>
-                    </div>
-                </div>
+            <div className="w-1/2">
+                <Slider {...settings}>
+                    {skillsData.map(skill => (
+                        <div key={skill.id} className="skill p-4 transition-transform transform hover:scale-105">
+                            <img src={skill.image} alt={skill.name} className="rounded-full shadow-lg" />
+                            <p className="mt-2 text-center font-bold text-white">{skill.name}</p>
+                        </div>
+                    ))}
+                </Slider>
             </div>
-        </>
+            <div className="relative w-1/4 h-64 flex items-center justify-center">
+                <div className="sun animate-fadeInUp"></div>
+            </div>
+        </div>
     );
 };
 

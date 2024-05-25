@@ -77,7 +77,23 @@
       font-size: 12px;
     }
   }
-
+  .moon {
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(circle, rgba(200, 200, 200, 1), rgba(100, 100, 100, 1));
+    border-radius: 50%;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.5);
+  }
+  
+  .sun {
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(circle, rgba(255, 223, 0, 1), rgba(255, 69, 0, 1));
+    border-radius: 50%;
+    box-shadow: 0 0 30px rgba(255, 223, 0, 0.5);
+  }
+  
+  
 
   .container-sun {
     width: 250px;
