@@ -3,7 +3,6 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './Skilles.css';
-
 import htmlImage from '../../assets/images/html.png';
 import jsImage from '../../assets/images/javascript.png';
 import reactImage from '../../assets/images/react.png';
@@ -61,21 +60,36 @@ const Skills = () => {
     };
 
     return (
-        <div className='mx-auto container'>
-            <div className='row flex justify-center items-center m-8'>
-                <div className="skills-carousel">
-                    <Slider {...settings}>
-                        {skillsData.map(skill => (
-                            <div key={skill.id} className="skill">
-                                <img src={skill.image} alt={skill.name} />
-                                <p>{skill.name}</p>
-                            </div>
-                        ))}
-                    </Slider>
+        <>
+            <div className='flex justify-center container'>
+                <div className="container-sun">
+                    <div className="cloud front">
+                        <span className="left-front"></span>
+                        <span className="right-front"></span>
+                    </div>
+                    <span className="sun sunshine"></span>
+                    <span className="sun"></span>
+                    <div className="cloud back">
+                        <span className="left-back"></span>
+                        <span className="right-back"></span>
+                    </div>
                 </div>
             </div>
-        </div>
-
+            <div className='mx-auto container '>
+                <div className='row flex justify-center items-center m-8'>
+                    <div className="skills-carousel">
+                        <Slider {...settings}>
+                            {skillsData.map(skill => (
+                                <div key={skill.id} className="skill">
+                                    <img src={skill.image} alt={skill.name} />
+                                    <p>{skill.name}</p>
+                                </div>
+                            ))}
+                        </Slider>
+                    </div>
+                </div>
+            </div>
+        </>
     );
 };
 

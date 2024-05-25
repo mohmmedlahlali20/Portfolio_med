@@ -31,13 +31,8 @@ function Project() {
     <div className="bg-white dark:bg-gray-800">
     <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
         <div className="lg:text-center">
-            <p className="text-base leading-6 text-indigo-600 font-semibold tracking-wide uppercase">My Projects</p>
-            <h2 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
-                Check out my latest work
-            </h2>
-            <p className="mt-4 max-w-2xl text-xl leading-7 text-gray-500 dark:text-gray-300 lg:mx-auto">
-                Here are a few projects I've been working on lately. Click on each to learn more.
-            </p>
+        <p className=" m-5 leading-6 text-indigo-600 font-semibold tracking-wide uppercase text-3xl">My Projects</p>
+         
             <div className="mt-10">
                 {/* Projects Grid */}
                 <div className="grid grid-cols-1 gap-6 sm:grid-cols-3">
