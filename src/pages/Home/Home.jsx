@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Fade, Slide, Zoom } from 'react-awesome-reveal';
 import './Home.css';
+import image from '../../assets/images/me.jpg'
 
 function Home() {
     return (
@@ -23,9 +24,6 @@ function Home() {
                                                 This is where I showcase my projects, skills, and more.
                                             </p>
                                         </div>
-                                        <div className='bg-gray-500 m-9 pnm'>
-                                            fuck
-                                        </div>
                                     </div>
                                 </Slide>
                                 <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
@@ -44,6 +42,7 @@ function Home() {
                         </main>
                     </div>
                 </div>
+             
             </div>
 
             {/* Projects Section */}
