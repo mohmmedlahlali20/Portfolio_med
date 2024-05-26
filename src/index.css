@@ -1,3 +1,10 @@
+/* index.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Custom styles */
+html.dark {
+  --bg-color: #1a202c; /* example color for dark mode */
+  --text-color: #fff; /* example color for dark mode text */
+}
