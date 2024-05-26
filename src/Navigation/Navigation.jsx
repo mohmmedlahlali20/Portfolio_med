@@ -1,16 +1,29 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import './Navigation.css';
+import './Navigation.css'; // Ensure you have the necessary CSS for dark mode
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isDarkMode, setIsDarkMode] = useState(false);
 
   useEffect(() => {
-    if (isDarkMode) {
+    const storedTheme = localStorage.getItem('theme');
+    if (storedTheme === 'dark') {
+      setIsDarkMode(true);
       document.documentElement.classList.add('dark');
     } else {
+      setIsDarkMode(false);
       document.documentElement.classList.remove('dark');
+    }
+  }, []);
+
+  useEffect(() => {
+    if (isDarkMode) {
+      document.documentElement.classList.add('dark');
+      localStorage.setItem('theme', 'dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+      localStorage.setItem('theme', 'light');
     }
   }, [isDarkMode]);
 
