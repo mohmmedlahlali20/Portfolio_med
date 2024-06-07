@@ -1,7 +1,7 @@
 // src/App.js
 import React from 'react';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import { About, Home, Project, Contact , Skilles } from './pages/index';
+import { About, Home, Project, Contact , Skilles ,More } from './pages/index';
 import Layout from './Layouts/Layouts';
 
 const router = createBrowserRouter([
@@ -28,6 +28,10 @@ const router = createBrowserRouter([
       {
         path: '/Skill',
         element: <Skilles/>,
+      },
+      {
+        path: '/more',
+        element: <More/>,
       },
     ],
   },

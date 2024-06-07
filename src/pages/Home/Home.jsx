@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Fade, Slide, Zoom } from 'react-awesome-reveal';
 import './Home.css';
-import image from '../../assets/images/me.jpg'
+// import image from '../../assets/images/me.jpg'
 
 function Home() {
     return (

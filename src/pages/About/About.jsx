@@ -20,7 +20,7 @@ export default function About() {
           <div className="lg:w-1/2">
             <p className="text-base leading-6 text-indigo-600 font-semibold tracking-wide uppercase">About Me</p>
             <h2 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
-              I'm a passionate developer
+              I'm a fullstack  developer web 
             </h2>
             <p className="mt-4 max-w-2xl text-xl leading-7 text-gray-500 dark:text-gray-300 lg:mx-auto">
               As a Full Stack Developer, I thrive on crafting cutting-edge solutions that push the boundaries of innovation. My skill set encompasses a wide array of technologies, including HTML, CSS, JavaScript, PHP, MySQL, React, Laravel, Ubuntu, and Docker. Whether it's designing responsive and intuitive user interfaces with HTML and CSS, implementing dynamic functionality with JavaScript, architecting robust backend systems with PHP and Laravel, optimizing database performance with MySQL, or deploying scalable applications with Docker on Ubuntu servers, I'm equipped to tackle any challenge. With a relentless passion for problem-solving and a commitment to excellence, I'm eager to collaborate and build something truly remarkable together. Let's bring our ideas to life and create extraordinary digital experiences that make a lasting impact.
