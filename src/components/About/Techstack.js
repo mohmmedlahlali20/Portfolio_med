@@ -6,14 +6,16 @@ import {
   DiJavascript1,
   DiReact,
   DiNodejs,
-  DiMongodb,
-  DiPython,
+  DiPhp,
+  DiBootstrap,
   DiGit,
-  DiJava,
-  // SiCakephp
+  DiSass,
+  DiLaravel,
+  DiPostgresql,
+  
 } from "react-icons/di";
 import {
-  SiTrello,
+  SiLichess,
   SiTailwindcss,
   SiBootstrap,
   SiExpress,
@@ -23,6 +25,8 @@ import {
   SiLaravel,
   SiDocker,
   SiMysql,
+  SiJquery,
+  SiTypescript
 } from "react-icons/si";
 import { TbBrandGolang } from "react-icons/tb";
 
@@ -32,17 +36,21 @@ function Techstack() {
   const skills = [
     { Icon: SiPhpmyadmin, name: "PhpMyAdmin" },
     { Icon: DiJavascript1, name: "JavaScript" },
-    { Icon: SiPhp, name: "PHP" },
+    { Icon: DiPhp, name: "PHP" },
     { Icon: DiNodejs, name: "Node.js" },
     { Icon: DiReact, name: "React" },
-    { Icon: SiLaravel, name: "Laravel" },
+    { Icon: DiLaravel, name: "Laravel" },
     { Icon: SiMysql, name: "MySQL" },
     { Icon: SiExpress, name: "Express" },
     { Icon: DiGit, name: "Git" },
-    { Icon: SiBootstrap, name: "Bootstrap" },
+    { Icon: DiBootstrap, name: "Bootstrap" },
     { Icon: SiTailwindcss, name: "Tailwind CSS" },
-    { Icon: SiPostgresql, name: "PostgreSQL" },
-    { Icon: SiDocker, name: "Docker" }
+    { Icon: DiPostgresql, name: "PostgreSQL" },
+    { Icon: SiDocker, name: "Docker" },
+    { Icon: SiJquery, name: "Jquery" },
+    { Icon: DiSass, name: "SASS" },
+    // { Icon: SiTypescript, name: "TypeScript" },
+
   ];
 
   return (

@@ -6,6 +6,13 @@ import {
   SiTrello,
   SiVercel,
   SiUbuntu,
+  SiGithub,
+  SiGithubpages,
+  SiXampp,
+  SiFilezilla,
+  SiFigma,
+  SiJira,
+  SiPhpstorm
 } from "react-icons/si";
 
 import './About.css'
@@ -19,8 +26,14 @@ function Toolstack() {
     { Icon: SiPostman, name: "Postman" },
     { Icon: SiTrello, name: "Trello" },
     { Icon: SiVercel, name: "Vercel" },
+    { Icon: SiGithub, name: "GitHub" },
+    { Icon: SiXampp, name: "Xampp" },
+    { Icon: SiGithubpages, name: "GitHub Pages" },
+    { Icon: SiFilezilla, name: "FilZilla" },
+    { Icon: SiFigma, name: "Figma" },
+    { Icon: SiJira, name: "Jira" },
+    { Icon: SiPhpstorm, name: "Php Storm" },
   ];
-
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       {tools.map(({ Icon, name }) => (

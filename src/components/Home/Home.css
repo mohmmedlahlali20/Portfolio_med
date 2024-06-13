@@ -1,0 +1,6 @@
+.bordered-image {
+  background-color: rgb(110, 2, 252);
+  border: 5px solid rgb(110, 2, 252); /* Adjust the border size as needed */
+  width: 100%; /* Ensure the image scales within the container */
+  height: auto; /* Maintain aspect ratio */
+}
