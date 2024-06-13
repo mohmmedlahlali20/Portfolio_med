@@ -1,0 +1,17 @@
+.tech-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100px; /* Adjust as necessary */
+  }
+  
+  .skill-name {
+    position: absolute;
+    bottom: 10px; /* Adjust as necessary */
+    font-size: 14px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2px 5px;
+    border-radius: 3px;
+  }
+  
