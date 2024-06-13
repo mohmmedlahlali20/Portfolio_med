@@ -26,7 +26,8 @@ import {
   SiDocker,
   SiMysql,
   SiJquery,
-  SiTypescript
+  SiTypescript,
+  SiWordpress
 } from "react-icons/si";
 import { TbBrandGolang } from "react-icons/tb";
 
@@ -49,6 +50,7 @@ function Techstack() {
     { Icon: SiDocker, name: "Docker" },
     { Icon: SiJquery, name: "Jquery" },
     { Icon: DiSass, name: "SASS" },
+    // { Icon: SiWordpress, name: "WordPress" },
     // { Icon: SiTypescript, name: "TypeScript" },
 
   ];

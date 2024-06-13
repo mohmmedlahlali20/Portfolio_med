@@ -12,7 +12,9 @@ import {
   SiFilezilla,
   SiFigma,
   SiJira,
-  SiPhpstorm
+  SiPhpstorm,
+  SiCanva,
+  SiDiscord,
 } from "react-icons/si";
 
 import './About.css'
@@ -33,6 +35,8 @@ function Toolstack() {
     { Icon: SiFigma, name: "Figma" },
     { Icon: SiJira, name: "Jira" },
     { Icon: SiPhpstorm, name: "Php Storm" },
+    { Icon: SiCanva, name: "Canva" },
+    // { Icon: SiDiscord, name: "discord" },
   ];
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
