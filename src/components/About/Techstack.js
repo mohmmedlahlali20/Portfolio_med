@@ -16,8 +16,7 @@ import {
   SiTailwindcss,
   SiExpress,
   SiPhpmyadmin,
-  SiPhp,
-  SiLaravel,
+
   SiDocker,
   SiMysql,
   SiJquery,
