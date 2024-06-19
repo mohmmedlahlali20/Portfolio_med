@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Col, Row } from "react-bootstrap";
-// import { SiCakephp } from "react-icons/cg";
 
 import {
   DiJavascript1,
@@ -12,47 +11,45 @@ import {
   DiSass,
   DiLaravel,
   DiPostgresql,
-  
 } from "react-icons/di";
 import {
-  SiLichess,
   SiTailwindcss,
-  SiBootstrap,
   SiExpress,
-  SiPostgresql,
   SiPhpmyadmin,
   SiPhp,
   SiLaravel,
   SiDocker,
   SiMysql,
   SiJquery,
-  SiTypescript,
-  SiWordpress
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
+import { TbBrandGolang, TbBrandHtml5, TbBrandCss3, TbBlade } from "react-icons/tb";
 
 function Techstack() {
   const [hoveredSkill, setHoveredSkill] = useState("");
 
   const skills = [
-    { Icon: SiPhpmyadmin, name: "PhpMyAdmin" },
-    { Icon: DiJavascript1, name: "JavaScript" },
-    { Icon: DiPhp, name: "PHP" },
-    { Icon: DiNodejs, name: "Node.js" },
-    { Icon: DiReact, name: "React" },
-    { Icon: DiLaravel, name: "Laravel" },
-    { Icon: SiMysql, name: "MySQL" },
-    { Icon: SiExpress, name: "Express" },
-    { Icon: DiGit, name: "Git" },
+    { Icon: TbBrandHtml5, name: "Html" },
+    { Icon: TbBrandCss3, name: "css" },
+    { Icon: DiSass, name: "SASS" },
     { Icon: DiBootstrap, name: "Bootstrap" },
     { Icon: SiTailwindcss, name: "Tailwind CSS" },
+    { Icon: TbBlade, name: "Blade" },
+    { Icon: DiJavascript1, name: "JavaScript" },
+    { Icon: DiReact, name: "React" },
+    { Icon: SiPhpmyadmin, name: "PhpMyAdmin" },
+    { Icon: DiPhp, name: "PHP" },
+    { Icon: DiLaravel, name: "Laravel" },
+    { Icon: DiNodejs, name: "Node.js" },
+    { Icon: SiExpress, name: "Express" },
+    { Icon: SiMysql, name: "MySQL" },
+    { Icon: DiGit, name: "Git" },
     { Icon: DiPostgresql, name: "PostgreSQL" },
     { Icon: SiDocker, name: "Docker" },
     { Icon: SiJquery, name: "Jquery" },
-    { Icon: DiSass, name: "SASS" },
+    { Icon: TbBrandGolang, name: "brand" },
+    // { Icon: SiWordpress, name: "WordPress" },
     // { Icon: SiWordpress, name: "WordPress" },
     // { Icon: SiTypescript, name: "TypeScript" },
-
   ];
 
   return (

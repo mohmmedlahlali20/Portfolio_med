@@ -4,8 +4,7 @@ import myImg from "../../Assets/image copy.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
+
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import './Home.css'

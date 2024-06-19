@@ -14,7 +14,6 @@ import {
   SiJira,
   SiPhpstorm,
   SiCanva,
-  SiDiscord,
 } from "react-icons/si";
 
 import './About.css'
