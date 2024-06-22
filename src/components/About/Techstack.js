@@ -15,7 +15,7 @@ import {
 import {
   SiTailwindcss,
   SiExpress,
-  SiPhpmyadmin,
+  
 
   SiDocker,
   SiMysql,
@@ -35,7 +35,7 @@ function Techstack() {
     { Icon: TbBlade, name: "Blade" },
     { Icon: DiJavascript1, name: "JavaScript" },
     { Icon: DiReact, name: "React" },
-    { Icon: SiPhpmyadmin, name: "PhpMyAdmin" },
+    
     { Icon: DiPhp, name: "PHP" },
     { Icon: DiLaravel, name: "Laravel" },
     { Icon: DiNodejs, name: "Node.js" },
