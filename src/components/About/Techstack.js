@@ -15,13 +15,11 @@ import {
 import {
   SiTailwindcss,
   SiExpress,
-  
-
   SiDocker,
   SiMysql,
   SiJquery,
 } from "react-icons/si";
-import { TbBrandGolang, TbBrandHtml5, TbBrandCss3, TbBlade } from "react-icons/tb";
+import {  TbBrandHtml5, TbBrandCss3, TbBlade } from "react-icons/tb";
 
 function Techstack() {
   const [hoveredSkill, setHoveredSkill] = useState("");
@@ -45,7 +43,7 @@ function Techstack() {
     { Icon: DiPostgresql, name: "PostgreSQL" },
     { Icon: SiDocker, name: "Docker" },
     { Icon: SiJquery, name: "Jquery" },
-    { Icon: TbBrandGolang, name: "brand" },
+    // { Icon: TbBrandGolang, name: "brand" },
     // { Icon: SiWordpress, name: "WordPress" },
     // { Icon: SiWordpress, name: "WordPress" },
     // { Icon: SiTypescript, name: "TypeScript" },
