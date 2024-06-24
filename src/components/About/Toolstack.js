@@ -38,7 +38,7 @@ function Toolstack() {
     { Icon: SiPhpstorm, name: "Php Storm" },
     { Icon: SiCanva, name: "Canva" },
     { Icon: SiPhpmyadmin, name: "PhpMyAdmin" },
-    { Icon: SiKalilinux, name: "Linux" },
+    { Icon: SiKalilinux, name: "Kali Linux" },
   ];
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
