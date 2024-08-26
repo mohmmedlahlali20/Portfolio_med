@@ -15,7 +15,7 @@ import {
   SiPhpstorm,
   SiCanva,
   SiPhpmyadmin,
-  SiKalilinux
+  SiNotion
 } from "react-icons/si";
 
 import './About.css'
@@ -38,7 +38,7 @@ function Toolstack() {
     { Icon: SiPhpstorm, name: "Php Storm" },
     { Icon: SiCanva, name: "Canva" },
     { Icon: SiPhpmyadmin, name: "PhpMyAdmin" },
-    { Icon: SiKalilinux, name: "Kali Linux" },
+    { Icon: SiNotion, name: "Notion" },
   ];
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>

@@ -9,7 +9,6 @@ function Type() {
           "Software Developer",
           "Freelancer",
           "FULLStack Developer",
-          "UI/UX DESIGN",
         ],
         autoStart: true,
         loop: true,

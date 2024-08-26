@@ -3,8 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import evento from "../../Assets/Projects/evento.png";
-import digi from "../../Assets/Projects/digi.png";
-import taxi from "../../Assets/Projects/taxi.png";
+import pets from "../../Assets/Projects/pets.png";
+import Transaction from "../../Assets/Projects/transaction.png";
 
 
 function Projects() {
@@ -43,11 +43,11 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={taxi}
+              imgPath={Transaction}
               isBlog={false}
-              title="MonGrandTaxi"
-              description="La société MonGrandTaxi souhaite développer une plateforme de réservation de grands taxis, permettant aux utilisateurs de trouver des chauffeurs disponibles pour des trajets spécifiques, et aux chauffeurs de publier leurs disponibilités"
-              // ghLink="https://github.com/soumyajit4419/Editor.io"
+              title="Transactions"
+              description="transactions, développé avec EJS, JavaScript, Express.js, Node.js, CSS, et Tailwind, offre une plateforme sécurisée et performante pour gérer vos opérations en ligne. Conçu pour une expérience utilisateur fluide, il permet de réaliser des transactions rapides et fiables, avec une interface moderne et intuitive."
+              ghLink="https://github.com/mohmmedlahlali20/Gestion_De_Portefeuille.git"
             />
           </Col>
 
@@ -57,7 +57,7 @@ function Projects() {
               isBlog={false}
               title="Evento"
               description="Cette plateforme permettra aux utilisateurs de découvrir, réserver et générer des tickets pour une variété d'événements, tandis que les organisateurs auront la possibilité de créer et de gérer leurs propres événements."
-              // ghLink="https://github.com/soumyajit4419/Plant_AI"
+              ghLink="https://github.com/mohmmedlahlali20/Eventoo.git"
             />
           </Col>
 
@@ -74,12 +74,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={digi}
+              imgPath={pets}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="personnalisez et partagez vos menus numériques en toute simplicité, tout en bénéficiant d'une authentification sécurisée, de notifications par e-mail en temps réel et de performances optimisées."
-              // ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="PetsWeb"
+              description="Pets Web est une plateforme e-commerce pour animaux de compagnie, développée avec Laravel, Bootstrap, HTML, CSS, JavaScript, et SQL."
+              ghLink="https://github.com/mohmmedlahlali20/PetsWeb.git"
+              // demoLink="https://blogs.soumya-jit.tech/"      
             />
           </Col>
         </Row>
