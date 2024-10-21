@@ -4,10 +4,10 @@ import myImg from "../../Assets/image copy.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import './Home.css'
+
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
@@ -15,52 +15,58 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              LAISSEZ-MOI <span className="purple"> ME PRÉSENTER </span>
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learned something, I think... 🤷‍♂️
-              <br />
-              <br />I am proficient in classics like
+              Je m'appelle <b className="purple">Mohammed Lahlali</b>, j'ai <b className="purple">20 ans</b>.
+              <br /><br />
+              J'ai obtenu mon bac en <b className="purple">2023 en STE (Sciences et Technologies de l'Électricité)</b>.
+              <br /><br />
+              Actuellement, j'ai accès à YouCode pour étudier le <b className="purple">développement web</b>.
+              <br /><br />
+              J'ai également effectué un stage chez <b className="purple">MediaZain à Casablanca</b> en tant que <b className="purple">développeur full stack</b>.
+              <br /><br />
+              Je maîtrise les classiques comme
               <i>
-                <b className="purple"> CSS, Javascript, and HTML. </b>
+                <b className="purple"> CSS, JavaScript et HTML. </b>
               </i>
               <br />
               <br />
-              My areas of interest include building new web technologies and products &nbsp;
+              Mes domaines d'intérêt incluent la création de nouvelles technologies et produits web &nbsp;
               <i>
-                <b className="purple"> </b> and also areas related to
-                <b className="purple">
-                  the Laravel framework and PHP.
+                <b className="purple"> </b> ainsi que des domaines liés au 
+                 <b className="purple">
+                    &nbsp;framework Laravel et PHP.
                 </b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products using <b className="purple">Node.js</b> and
+              Chaque fois que c'est possible, j'applique également ma passion pour le développement de produits en utilisant <b className="purple">Node.js</b> et
               <i>
                 <b className="purple">
                   {" "}
-                  modern JavaScript libraries and frameworks
+                  des bibliothèques et frameworks JavaScript modernes
                 </b>
               </i>
-              &nbsp; such as
+              &nbsp; tels que
               <i>
-                <b className="purple"> React.js and Express.js</b>
+                <b className="purple"> React.js et Express.js</b>
               </i>
             </p>
           </Col>
 
           <Col md={4} className="myAvtar">
-  <Tilt>
-    <img src={myImg} className="img-fluid rounded-circle bordered-image" alt="avatar" />
-  </Tilt>
-</Col>
+            <Tilt>
+              <img src={myImg} className="img-fluid rounded-circle bordered-image" alt="avatar" />
+            </Tilt>
+          </Col>
 
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
+            <h1>TROUVEZ-MOI SUR</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              N'hésitez pas à <span className="purple">vous connecter </span>avec moi
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
