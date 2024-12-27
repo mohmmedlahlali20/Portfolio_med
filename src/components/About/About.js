@@ -36,9 +36,6 @@ function Apropos() {
         <h1 className="project-heading">
           Ensemble de <strong className="purple">Compétences Professionnelles</strong>
         </h1>
-
-        <Techstack />
-
         <Github />
       </Container>
     </Container>
