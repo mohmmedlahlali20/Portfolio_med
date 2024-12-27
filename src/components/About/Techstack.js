@@ -53,7 +53,6 @@ function Techstack() {
     { Icon: SiExpress, name: "Express" },
     { Icon: DiPhp, name: "PHP" },
     { Icon: DiLaravel, name: "Laravel" },
- 
   ];
 
   const DataBase = [
@@ -61,6 +60,7 @@ function Techstack() {
     { Icon: SiMysql, name: "MySQL" },
     { Icon: DiPostgresql, name: "PostgreSQL" },
   ];
+
   const devOpsSkills = [
     { Icon: SiJest, name: "JEST" },
     { Icon: DiGit, name: "Git" },
@@ -86,7 +86,27 @@ function Techstack() {
         style={{ position: "relative", textAlign: "center" }}
       >
         {hoveredSkill === name && (
-          <div className="skill-name">{name}</div>
+          <div
+            className="skill-name"
+            style={{
+              position: "absolute",
+              bottom: "5px", 
+              left: "50%",
+              transform: "translateX(-50%)",
+              fontSize: "12px", 
+              fontWeight: "bold",
+              whiteSpace: "nowrap",
+              background: "#000", 
+              color: "#fff",
+              padding: "2px 5px",
+              borderRadius: "5px",
+              maxWidth: "80px", 
+              textOverflow: "ellipsis",
+              overflow: "hidden"
+            }}
+          >
+            {name}
+          </div>
         )}
         <Icon />
       </Col>
@@ -114,10 +134,11 @@ function Techstack() {
       <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
         {renderSkills(DataBase)}
       </Row>
+
       <h2 className="project-heading">
         <strong className="purple">DevOps & Tools</strong>
       </h2>
-      <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
         {renderSkills(devOpsSkills)}
       </Row>
     </div>

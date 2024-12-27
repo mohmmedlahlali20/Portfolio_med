@@ -2,14 +2,12 @@ import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import { AiOutlineDownload } from "react-icons/ai";
-import { Document, Page, pdfjs } from "react-pdf";
+import { Document, Page } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import Particle from "../Particle";
 
-import CV_MERN from "../../Assets/pdfs/Cv_Mohammed_Lahlali_Javascript_MERN.pdf";
-import PHP_Laravel_CV from "../../Assets/pdfs/CV_Mohammed_Lahlali_PHP_LARAVEL.pdf";
+import CV_MERN from "../../Assets/pdfs/JavaScript_Mohammed_Lahlali.pdf";
 
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
