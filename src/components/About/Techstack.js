@@ -25,7 +25,8 @@ import {
   SiJsonwebtokens,
   SiWebstorm,
   SiJira,
-  
+  SiRedux,
+  SiTypescript
 } from "react-icons/si";
 import { TbBrandHtml5, TbBrandCss3, TbBrandNextjs } from "react-icons/tb";
 
@@ -37,7 +38,8 @@ function Techstack() {
     { Icon: TbBrandNextjs, name: "nextjs" },
     { Icon: DiNodejs, name: "Node.js" },
     { Icon: DiJavascript1, name: "JavaScript" },
-
+    { Icon: SiRedux, name: "Redux" },
+    { Icon: SiTypescript, name: "TypeScript" },
     { Icon: TbBrandHtml5, name: "HTML" },
     { Icon: TbBrandCss3, name: "CSS" },
     { Icon: DiBootstrap, name: "Bootstrap" },
@@ -47,6 +49,7 @@ function Techstack() {
   const backendSkills = [
     { Icon: SiNestjs, name: "NESTJS" },
     { Icon: DiNodejs, name: "Node.js" },
+    { Icon: SiTypescript, name: "TypeScript " },
     { Icon: SiExpress, name: "Express" },
     { Icon: DiPhp, name: "PHP" },
     { Icon: DiLaravel, name: "Laravel" },

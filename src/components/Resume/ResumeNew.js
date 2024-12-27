@@ -24,12 +24,11 @@ function ResumeNew() {
         <Particle />
         <Container>
           <h1 className="project-heading">
-            <strong className="purple">My Resumes</strong>
+            <strong className="purple">My Resume</strong>
           </h1>
           <Row className="resume" style={{ justifyContent: "center" }}>
            
             <Col md={6}>
-              <h3 className="text-center">MERN Stack CV</h3>
               <div className="text-center m-3">
                 
                 <Button
@@ -48,27 +47,8 @@ function ResumeNew() {
               </Document>
               
             </Col>
-              <div className="m-5">
-
-              </div>
-            <Col md={6}>
-              <h3 className="text-center">PHP Laravel CV</h3>
-              <div className="text-center m-3">
-                <Button
-                  variant="primary"
-                  href={PHP_Laravel_CV}
-                  target="_blank"
-                  style={{ maxWidth: "250px" }}
-                >
-                  <AiOutlineDownload />
-                  &nbsp;Download PHP Laravel CV
-                </Button>
-              </div>
-              <Document file={PHP_Laravel_CV} className="d-flex justify-content-center">
-                <Page pageNumber={1} scale={width > 786 ? 1.2 : 0.6} />
-              </Document>
-              
-            </Col>
+             
+           
           </Row>
         </Container>
       </Container>
