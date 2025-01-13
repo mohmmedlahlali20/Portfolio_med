@@ -3,7 +3,6 @@ import { Col, Row } from "react-bootstrap";
 import {
   DiJavascript1,
   DiReact,
-  DiNodejs,
   DiPhp,
   DiBootstrap,
   DiGit,
@@ -26,9 +25,22 @@ import {
   SiWebstorm,
   SiJira,
   SiRedux,
-  SiTypescript
+  SiTypescript,
+  SiVercel,
+  SiMinio,
+  SiVite,
+  SiMariadb,
+  SiPhpmyadmin
 } from "react-icons/si";
-import { TbBrandHtml5, TbBrandCss3, TbBrandNextjs } from "react-icons/tb";
+import { 
+  TbBrandHtml5, 
+  TbBrandCss3, 
+  TbBrandNextjs,
+  TbBrandNodejs,
+  TbBrandReactNative,
+  TbSql,
+  TbBrandFigma 
+} from "react-icons/tb";
 
 function Techstack() {
   const [hoveredSkill, setHoveredSkill] = useState("");
@@ -36,10 +48,12 @@ function Techstack() {
   const frontendSkills = [
     { Icon: DiReact, name: "React" },
     { Icon: TbBrandNextjs, name: "nextjs" },
-    { Icon: DiNodejs, name: "Node.js" },
+    { Icon: TbBrandReactNative, name: "R.native" },
+    { Icon: TbBrandNodejs, name: "Nodejs" },
     { Icon: DiJavascript1, name: "JavaScript" },
     { Icon: SiRedux, name: "Redux" },
     { Icon: SiTypescript, name: "TypeScript" },
+    { Icon: SiVite, name: "ViteJS" },
     { Icon: TbBrandHtml5, name: "HTML" },
     { Icon: TbBrandCss3, name: "CSS" },
     { Icon: DiBootstrap, name: "Bootstrap" },
@@ -48,30 +62,36 @@ function Techstack() {
 
   const backendSkills = [
     { Icon: SiNestjs, name: "NESTJS" },
-    { Icon: DiNodejs, name: "Node.js" },
+    { Icon: TbBrandNodejs, name: "Nodejs" },
     { Icon: SiTypescript, name: "TypeScript " },
     { Icon: SiExpress, name: "Express" },
     { Icon: DiPhp, name: "PHP" },
     { Icon: DiLaravel, name: "Laravel" },
+    { Icon: TbSql, name: "SQL" },
   ];
 
   const DataBase = [
     { Icon: SiMongodb, name: "MongoDB" },
     { Icon: SiMysql, name: "MySQL" },
     { Icon: DiPostgresql, name: "PostgreSQL" },
+    { Icon: SiMariadb, name: "MariaDB" },
   ];
 
   const devOpsSkills = [
     { Icon: SiJest, name: "JEST" },
     { Icon: DiGit, name: "Git" },
     { Icon: SiJsonwebtokens, name: "JWT" },
+    { Icon: SiPhpmyadmin, name: "PHPmyAdmin" },
+    { Icon: SiMinio, name: "Minio" },
     { Icon: SiPostman, name: "Postman" },
     { Icon: SiDocker, name: "Docker" },
     { Icon: SiWebstorm, name: "Webstorm" },
+    { Icon: SiVercel, name: "Vercel" },
     { Icon: DiUbuntu, name: "ubuntu" },
     { Icon: DiWindows, name: "windows" },
     { Icon: SiJira, name: "Jira" },
     { Icon: DiTrello, name: "Trello" },
+    { Icon: TbBrandFigma, name: "Figma" },
   ];
 
   const renderSkills = (skills) =>
