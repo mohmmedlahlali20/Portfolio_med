@@ -30,7 +30,11 @@ import {
   SiMinio,
   SiVite,
   SiMariadb,
-  SiPhpmyadmin
+  SiPhpmyadmin,
+  SiInsomnia,
+  SiNpm,
+  SiUml,
+  SiYaml,
 } from "react-icons/si";
 import { 
   TbBrandHtml5, 
@@ -51,6 +55,7 @@ function Techstack() {
     { Icon: TbBrandReactNative, name: "R.native" },
     { Icon: TbBrandNodejs, name: "Nodejs" },
     { Icon: DiJavascript1, name: "JavaScript" },
+    { Icon: SiNpm, name: "NPM" },
     { Icon: SiRedux, name: "Redux" },
     { Icon: SiTypescript, name: "TypeScript" },
     { Icon: SiVite, name: "ViteJS" },
@@ -65,6 +70,7 @@ function Techstack() {
     { Icon: TbBrandNodejs, name: "Nodejs" },
     { Icon: SiTypescript, name: "TypeScript " },
     { Icon: SiExpress, name: "Express" },
+    { Icon: SiNpm, name: "NPM" },
     { Icon: DiPhp, name: "PHP" },
     { Icon: DiLaravel, name: "Laravel" },
     { Icon: TbSql, name: "SQL" },
@@ -84,7 +90,9 @@ function Techstack() {
     { Icon: SiPhpmyadmin, name: "PHPmyAdmin" },
     { Icon: SiMinio, name: "Minio" },
     { Icon: SiPostman, name: "Postman" },
+    { Icon: SiInsomnia, name: "Insomnia" },
     { Icon: SiDocker, name: "Docker" },
+    { Icon: SiUml, name: "UML" },
     { Icon: SiWebstorm, name: "Webstorm" },
     { Icon: SiVercel, name: "Vercel" },
     { Icon: DiUbuntu, name: "ubuntu" },
@@ -92,6 +100,7 @@ function Techstack() {
     { Icon: SiJira, name: "Jira" },
     { Icon: DiTrello, name: "Trello" },
     { Icon: TbBrandFigma, name: "Figma" },
+    { Icon: SiYaml, name: "YAML" },
   ];
 
   const renderSkills = (skills) =>
