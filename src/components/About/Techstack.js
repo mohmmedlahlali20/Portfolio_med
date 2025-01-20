@@ -35,6 +35,8 @@ import {
   SiNpm,
   SiUml,
   SiYaml,
+  SiFirebase,
+  SiGithubactions
 } from "react-icons/si";
 import { 
   TbBrandHtml5, 
@@ -81,6 +83,7 @@ function Techstack() {
     { Icon: SiMysql, name: "MySQL" },
     { Icon: DiPostgresql, name: "PostgreSQL" },
     { Icon: SiMariadb, name: "MariaDB" },
+    { Icon: SiFirebase, name: "FireBase" },
   ];
 
   const devOpsSkills = [
@@ -91,6 +94,7 @@ function Techstack() {
     { Icon: SiMinio, name: "Minio" },
     { Icon: SiPostman, name: "Postman" },
     { Icon: SiInsomnia, name: "Insomnia" },
+    { Icon: SiGithubactions, name: "Github Action" },
     { Icon: SiDocker, name: "Docker" },
     { Icon: SiUml, name: "UML" },
     { Icon: SiWebstorm, name: "Webstorm" },
