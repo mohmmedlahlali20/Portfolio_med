@@ -1,6 +1,17 @@
 .bordered-image {
   background-color: rgb(50, 23, 87);
-  border: 5px solid rgb(50, 23, 87); /* Adjust the border size as needed */
-  width: 100%; /* Ensure the image scales within the container */
-  height: auto; /* Maintain aspect ratio */
+  border: 5px solid rgb(50, 23, 87); 
+  width: 100%; 
+  height: auto;
+}
+/* Add this to your CSS file or inside a <style> tag in your component */
+.home-content img {
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.home-content img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
