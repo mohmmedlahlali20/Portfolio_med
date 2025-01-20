@@ -6,6 +6,7 @@ import CineManager from "../../Assets/Projects/CineManager.png";
 import P2P from "../../Assets/Projects/P2P.png";
 import RH from "../../Assets/Projects/RH.png";
 import sportive from "../../Assets/Projects/sportive.png"
+import Photo from '../../Assets/Projects/PhotoShare.png'
 
 function Projects() {
   return (
@@ -55,6 +56,15 @@ function Projects() {
               isBlog={false}
               title="Event Manager"
               description="Event Manager est une application de gestion d'événements. Le backend est développé avec NestJS, TypeScript et MongoDB, tandis que le frontend utilise React et Redux Toolkit. Cette plateforme permet de créer, gérer et suivre des événements. Les dépôts backend et frontend sont séparés pour une meilleure organisation."
+              ghLink="https://github.com/mohmmedlahlali20/Systeme_Gestion_event.git"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Photo}
+              isBlog={false}
+              title="PhotoShare"
+              description=" PhotoShare est une application mobile utilisant React Native , avec une authentification Firebase, permettant aux utilisateurs de partager et interagir avec des photos. Les photos peuvent être des memes, des photos de nature, ou d'autres catégories. Les utilisateurs peuvent réagir, commenter et suivre d'autres utilisateurs."
               ghLink="https://github.com/mohmmedlahlali20/Systeme_Gestion_event.git"
             />
           </Col>
