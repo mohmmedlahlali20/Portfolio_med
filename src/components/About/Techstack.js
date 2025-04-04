@@ -38,14 +38,16 @@ import {
   SiFirebase,
   SiGithubactions
 } from "react-icons/si";
-import { 
-  TbBrandHtml5, 
-  TbBrandCss3, 
+import {
+  TbBrandHtml5,
+  TbBrandCss3,
   TbBrandNextjs,
   TbBrandNodejs,
   TbBrandReactNative,
   TbSql,
-  TbBrandFigma 
+  TbBrandFigma,
+  TbBrandVue,
+  TbBrandPython
 } from "react-icons/tb";
 
 function Techstack() {
@@ -55,6 +57,7 @@ function Techstack() {
     { Icon: DiReact, name: "React" },
     { Icon: TbBrandNextjs, name: "nextjs" },
     { Icon: TbBrandReactNative, name: "R.native" },
+    { Icon: TbBrandVue, name: "VUEjs" },
     { Icon: TbBrandNodejs, name: "Nodejs" },
     { Icon: DiJavascript1, name: "JavaScript" },
     { Icon: SiNpm, name: "NPM" },
@@ -76,6 +79,7 @@ function Techstack() {
     { Icon: DiPhp, name: "PHP" },
     { Icon: DiLaravel, name: "Laravel" },
     { Icon: TbSql, name: "SQL" },
+    { Icon: TbBrandPython, name: "Python" },
   ];
 
   const DataBase = [
