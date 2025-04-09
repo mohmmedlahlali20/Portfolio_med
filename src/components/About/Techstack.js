@@ -36,7 +36,17 @@ import {
   SiUml,
   SiYaml,
   SiFirebase,
-  SiGithubactions
+  SiGithubactions,
+  SiFlask,
+  SiPhpstorm,
+  SiPycharm,
+  SiGithub,
+  SiNodemon,
+  SiPnpm,
+  SiYarn,
+  SiApache,
+  SiSwagger,
+  SiEslint
 } from "react-icons/si";
 import {
   TbBrandHtml5,
@@ -73,13 +83,14 @@ function Techstack() {
   const backendSkills = [
     { Icon: SiNestjs, name: "NESTJS" },
     { Icon: TbBrandNodejs, name: "Nodejs" },
+    { Icon: SiNodemon, name: "Nodemon" },
     { Icon: SiTypescript, name: "TypeScript " },
     { Icon: SiExpress, name: "Express" },
-    { Icon: SiNpm, name: "NPM" },
     { Icon: DiPhp, name: "PHP" },
     { Icon: DiLaravel, name: "Laravel" },
     { Icon: TbSql, name: "SQL" },
     { Icon: TbBrandPython, name: "Python" },
+    { Icon: SiFlask, name: "Flask" },
   ];
 
   const DataBase = [
@@ -92,16 +103,25 @@ function Techstack() {
 
   const devOpsSkills = [
     { Icon: SiJest, name: "JEST" },
+    { Icon: SiSwagger, name: "Swagger" },
     { Icon: DiGit, name: "Git" },
+    { Icon: SiGithub, name: "Github" },
     { Icon: SiJsonwebtokens, name: "JWT" },
     { Icon: SiPhpmyadmin, name: "PHPmyAdmin" },
     { Icon: SiMinio, name: "Minio" },
+    { Icon: SiApache, name: "Apache" },
+    { Icon: SiEslint, name: "ESLint" },
     { Icon: SiPostman, name: "Postman" },
     { Icon: SiInsomnia, name: "Insomnia" },
     { Icon: SiGithubactions, name: "Github Action" },
     { Icon: SiDocker, name: "Docker" },
     { Icon: SiUml, name: "UML" },
+    { Icon: SiPnpm, name: "Pnpm" },
+    { Icon: SiNpm, name: "NPM" },
+    { Icon: SiYarn, name: "Yarn" },
     { Icon: SiWebstorm, name: "Webstorm" },
+    { Icon: SiPycharm, name: "PyCharm" },
+    { Icon: SiPhpstorm, name: "Phpstorm" },
     { Icon: SiVercel, name: "Vercel" },
     { Icon: DiUbuntu, name: "ubuntu" },
     { Icon: DiWindows, name: "windows" },

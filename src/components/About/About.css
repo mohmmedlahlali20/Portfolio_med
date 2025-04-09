@@ -1,17 +1,108 @@
+.about-section {
+  position: relative;
+  padding-top: 150px;
+  padding-bottom: 30px;
+  background-image: var(--section-background-color);
+  color: white;
+}
+
+.about-section .project-heading {
+  color: white;
+  font-size: 2.3em;
+  font-weight: 500;
+  padding-top: 10px;
+}
+
+.about-img {
+  padding: 0 20px;
+  opacity: 0.8;
+  transition: all 0.3s ease;
+}
+
+.about-img:hover {
+  opacity: 1;
+  transform: scale(1.02);
+}
+
+.about-img img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
 .tech-icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 100px; /* Adjust as necessary */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  height: 140px;
+  width: 140px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(4px);
+  transition: all 0.3s ease;
+  margin: 10px;
+}
+
+.tech-icons:hover {
+  transform: translateY(-7px);
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.tech-icons svg {
+  font-size: 4.5em;
+  color: var(--primary);
+}
+
+.skill-name {
+  margin-top: 10px;
+  font-size: 0.9em;
+  font-weight: 500;
+  color: #e6e6e6;
+  text-align: center;
+}
+
+.purple {
+  color: var(--primary) !important;
+}
+
+/* Responsive Design */
+@media (max-width: 767px) {
+  .about-section {
+    padding-top: 70px;
   }
-  
-  .skill-name {
-    position: absolute;
-    bottom: 10px; /* Adjust as necessary */
-    font-size: 14px;
-    background-color: rgba(54, 6, 64, 0.8);
-    padding: 2px 5px;
-    border-radius: 3px;
+
+  .about-img {
+    padding: 0;
+    margin-top: 30px;
   }
-  
+
+  .tech-icons {
+    height: 120px;
+    width: 120px;
+  }
+
+  .tech-icons svg {
+    font-size: 3.5em;
+  }
+}
+
+/* Animation for content */
+.about-section .row {
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
