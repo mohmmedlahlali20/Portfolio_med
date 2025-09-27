@@ -46,7 +46,10 @@ import {
   SiYarn,
   SiApache,
   SiSwagger,
-  SiEslint
+  SiEslint,
+  SiSupabase,
+  SiMapbox,
+  SiKalilinux
 } from "react-icons/si";
 import {
   TbBrandHtml5,
@@ -78,6 +81,7 @@ function Techstack() {
     { Icon: TbBrandCss3, name: "CSS" },
     { Icon: DiBootstrap, name: "Bootstrap" },
     { Icon: SiTailwindcss, name: "Tailwind CSS" },
+    { Icon: SiMapbox, name: "Mapbox" },
   ];
 
   const backendSkills = [
@@ -91,6 +95,7 @@ function Techstack() {
     { Icon: TbSql, name: "SQL" },
     { Icon: TbBrandPython, name: "Python" },
     { Icon: SiFlask, name: "Flask" },
+    { Icon: SiSupabase, name: "SupaBase" },
   ];
 
   const DataBase = [
@@ -124,6 +129,7 @@ function Techstack() {
     { Icon: SiPhpstorm, name: "Phpstorm" },
     { Icon: SiVercel, name: "Vercel" },
     { Icon: DiUbuntu, name: "ubuntu" },
+    { Icon: SiKalilinux, name: "Kali linux" },
     { Icon: DiWindows, name: "windows" },
     { Icon: SiJira, name: "Jira" },
     { Icon: DiTrello, name: "Trello" },

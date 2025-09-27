@@ -5,6 +5,7 @@ import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
+import laptopImg2 from "../../Assets/image.png";
 
 function Apropos() {
   return (
@@ -21,7 +22,7 @@ function Apropos() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Apprenez à <strong className="purple">ME CONNAÎTRE</strong>
+              Get to <strong className="purple">KNOW ME</strong>
             </h1>
             <Aboutcard />
           </Col>
@@ -30,15 +31,18 @@ function Apropos() {
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
           >
-            <img src={laptopImg} alt="à propos" className="img-fluid" />
+            <img src={laptopImg2} alt="about me" className="img-fluid" />
           </Col>
         </Row>
+
         <h1 className="project-heading">
-          Ensemble de <strong className="purple">Compétences Professionnelles</strong>
+          Set of <strong className="purple">Professional Skills</strong>
         </h1>
-          <Techstack />
+
+        <Techstack />
         <Github />
       </Container>
+
     </Container>
   );
 }

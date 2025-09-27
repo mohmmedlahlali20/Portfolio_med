@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/image copy.png";
+import myImg2 from "../../Assets/about.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -15,58 +16,53 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LAISSEZ-MOI <span className="purple"> ME PRÉSENTER </span>
+              LET ME <span className="purple"> INTRODUCE MYSELF </span>
             </h1>
             <p className="home-about-body">
-              Je m'appelle <b className="purple">Mohammed Lahlali</b>, j'ai <b className="purple">20 ans</b>.
+              My name is <b className="purple">Mohammed Lahlali</b>, and I am <b className="purple">21 years old</b>.
               <br /><br />
-              J'ai obtenu mon bac en <b className="purple">2023 en STE (Sciences et Technologies de l'Électricité)</b>.
+              I obtained my high school diploma in <b className="purple">2023 in STE (Sciences and Technologies of Electricity)</b>.
               <br /><br />
-              Actuellement, j'ai accès à YouCode pour étudier le <b className="purple">développement web</b>.
+              I recently <b className="purple">graduated from YouCode</b> as a
+              <b className="purple"> Web & Mobile Developer specialized in JavaScript</b>.
               <br /><br />
-              J'ai également effectué un stage chez <b className="purple">MediaZain à Casablanca</b> en tant que <b className="purple">développeur full stack</b>.
+              Currently, I am doing an <b className="purple">internship with a professional contract (ANAPEC) at Arias Technologie Solution</b>,
+              working as a <b className="purple">Full Stack Developer</b>.
               <br /><br />
-              Je maîtrise les classiques comme
+              I have strong skills in the classics like
               <i>
-                <b className="purple"> CSS, JavaScript et HTML. </b>
+                <b className="purple">  JavaScript, PHP, Python. </b>
               </i>
-              <br />
-              <br />
-              Mes domaines d'intérêt incluent la création de nouvelles technologies et produits web &nbsp;
+              <br /><br />
+              My interests include building new web technologies and products, &nbsp;
               <i>
-                <b className="purple"> </b> ainsi que des domaines liés au 
-                 <b className="purple">
-                    &nbsp;framework Laravel et PHP.
-                </b>
+                <b className="purple"> </b> as well as working with
+                <b className="purple">&nbsp;React Native, NestJS frameworks.</b>
               </i>
-              <br />
-              <br />
-              Chaque fois que c'est possible, j'applique également ma passion pour le développement de produits en utilisant <b className="purple">Node.js</b> et
+              <br /><br />
+              Whenever possible, I also channel my passion for product development using <b className="purple">Node.js</b> and
               <i>
-                <b className="purple">
-                  {" "}
-                  des bibliothèques et frameworks JavaScript modernes
-                </b>
+                <b className="purple"> modern JavaScript libraries and frameworks</b>
               </i>
-              &nbsp; tels que
+              &nbsp; such as
               <i>
-                <b className="purple"> React.js et Express.js</b>
-              </i>
+                <b className="purple"> NextJS and NestJS</b>
+              </i>.
             </p>
           </Col>
 
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid rounded-circle bordered-image" alt="avatar" />
+              <img src={myImg2} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
-
         </Row>
+
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>TROUVEZ-MOI SUR</h1>
+            <h1>FIND ME ON</h1>
             <p>
-              N'hésitez pas à <span className="purple">vous connecter </span>avec moi
+              Feel free to <span className="purple">connect with me</span>
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
@@ -74,7 +70,7 @@ function Home2() {
                   href="https://github.com/mohmmedlahlali20"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <AiFillGithub />
                 </a>
@@ -84,7 +80,7 @@ function Home2() {
                   href="https://www.linkedin.com/in/mohammed-lahlali-a80996266/"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <FaLinkedinIn />
                 </a>
@@ -94,6 +90,7 @@ function Home2() {
         </Row>
       </Container>
     </Container>
+
   );
 }
 

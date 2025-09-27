@@ -15,14 +15,14 @@ function Accueil() {
           <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                Bonjour !{" "}
+                Hello!{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
                 </span>
               </h1>
 
               <h1 className="heading-name">
-                JE SUIS
+                I AM
                 <strong className="main-name"> Mohammed LAHLALI</strong>
               </h1>
 
@@ -31,7 +31,8 @@ function Accueil() {
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20 }}>
+
+            <Col md={5} style={{ paddingBottom: 20 }} className="myAvtar">
               <img
                 src={homeLogo}
                 alt="image d'accueil"
